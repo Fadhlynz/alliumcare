@@ -3,7 +3,7 @@
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <a href="/dashboard">
+                    <a href="/">
                         <img src="{{ asset('mazer/images/logo/logo.png') }}" alt="Logo" srcset="">AlliumCare</a>
                 </div>
                 <div class="toggler">

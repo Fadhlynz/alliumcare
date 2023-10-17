@@ -14,7 +14,7 @@
     @endphp
 
     <p class="mb-4">
-        <b>Nama :</b> {{ $riwayat->nama }}
+        <b>Nama Lengkap :</b> {{ $riwayat->nama }}
     </p>
 
     <p class="mb-4">
@@ -91,13 +91,31 @@
                 </div>
                 <div class="col-md-6">
                     @php
-                        $imge = unserialize($riwayat->cf_max)[3];
+                        $imge = unserialize($riwayat->cf_max)[5];
                     @endphp
                     <img src="{{ public_path('images/hama/' . $imge) }}" width="250" height="120" alt="">
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="alert alert-secondary">
+                    <h3>Detail Hama</h3>
+                    {!! unserialize($riwayat->cf_max)[3] !!}
+                </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="alert alert-secondary">
+                    <h3>Saran Hama</h3>
+                        {!! unserialize($riwayat->cf_max)[4] !!}
+                </div> 
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

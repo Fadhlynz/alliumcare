@@ -83,17 +83,35 @@
                                     </p>
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="{{ url('images/hama/', unserialize($riwayat->cf_max)[3]) }}" width="250"
+                                    <img src="{{ url('images/hama/', unserialize($riwayat->cf_max)[5]) }}" width="250"
                                         height="120" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="mt-3 text-center">
-                            <a href="{{ asset("storage/downloads/$riwayat->file_pdf") }}" target="_blank"
-                                class="btn btn-primary mr-1"><i class="fas fa-print mr-1"></i> Print</a>
-                            <a href="{{ route('diagnosa-hama') }}" class="btn btn-warning mr-1"><i
-                                    class="fas fa-redo mr-1"></i> Diagnosa ulang</a>
+                    </div>
+
+                    <div class="mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="alert alert-secondary">
+                                    <h3>Detail Hama</h3>
+                                    {!! unserialize($riwayat->cf_max)[3] !!}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                 <div class="alert alert-secondary">
+                                    <h3>Saran Hama</h3>
+                                      {!! unserialize($riwayat->cf_max)[4] !!}
+                                </div> 
+                            </div>
                         </div>
+                    </div> 
+
+                    <div class="mt-3 text-center">
+                        <a href="{{ asset("storage/downloads/$riwayat->file_pdf") }}" target="_blank"
+                            class="btn btn-primary mr-1"><i class="fas fa-print mr-1"></i> Print</a>
+                        <a href="{{ route('diagnosa-hama') }}" class="btn btn-warning mr-1"><i
+                                class="fas fa-redo mr-1"></i> Diagnosa ulang</a>
                     </div>
                 </div>
             </div>

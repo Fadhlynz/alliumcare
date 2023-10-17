@@ -122,10 +122,10 @@ class DiagnosahamaController extends Controller
         }
         if (count($final) - 1 == $key) {
           if ($cf_max == null) {
-            $cf_max = [$hasil_cf, $final[0]->id, "{$final[0]->name} ({$final[0]->code})", $final[0]->images];
+            $cf_max = [$hasil_cf, $final[0]->id, "{$final[0]->name} ({$final[0]->code})", $final[0]->det_hama, $final[0]->srn_hama, $final[0]->images];
           } else {
             $cf_max = ($hasil_cf > $cf_max[0])
-              ? [$hasil_cf, $final[0]->id, "{$final[0]->name} ({$final[0]->code})", $final[0]->images]
+              ? [$hasil_cf, $final[0]->id, "{$final[0]->name} ({$final[0]->code})", $final[0]->det_hama, $final[0]->srn_hama, $final[0]->images]
               : $cf_max;
           }
 

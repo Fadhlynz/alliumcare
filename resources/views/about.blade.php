@@ -49,7 +49,7 @@
 
 
                 @foreach ($settings as $row)
-                    <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
                             <h2>{{ $row->title }}</h2>
                             <p>
@@ -57,9 +57,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        <img src="{{ asset('flex-start/img/about.jpg') }}" class="img-fluid" alt="">
-                    </div>
+                    {{--  <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="{{ asset('flex-start/img/farmer.png') }}" class="img-fluid mt-0" alt="">
+                    </div>  --}}
                 @endforeach
             </div>
         </div>

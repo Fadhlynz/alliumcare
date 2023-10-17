@@ -108,6 +108,24 @@
     </script>
 
     <script src="{{ asset('mazer/vendors/ckeditor/ckeditor.js') }}"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            const passwordInput = $("#passwordInput");
+            const togglePassword = $("#togglePassword");
+
+            togglePassword.on("click", function() {
+                if (passwordInput.attr("type") === "password") {
+                    passwordInput.attr("type", "text");
+                    togglePassword.removeClass("bi-eye-slash").addClass("bi-eye");
+                } else {
+                    passwordInput.attr("type", "password");
+                    togglePassword.removeClass("bi-eye").addClass("bi-eye-slash");
+                }
+            });
+        });
+    </script>
 
     <script>
         // CKEditor Detail Hama
