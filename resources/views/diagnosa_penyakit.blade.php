@@ -23,7 +23,7 @@
                                     <label for="name">Nama Lengkap</label>
                                     <input type="text" id="name" class="form-control  @error('name') is-invalid @enderror" name="name"
                                         placeholder="Masukkan Nama Lengkap" autocomplete="off">
-                                         @error('name')
+                                        @error('name')
                                             <div class="invalid-feedback">
                                                 <i class="bx bx-radio-circle"></i>
                                                 {{ $message }}.
@@ -48,7 +48,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                   @foreach ($gejalas as $gejalapenyakit)
+                                    @foreach ($gejalas as $gejalapenyakit)
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td>{{ $gejalapenyakit->code }}</td>
@@ -59,7 +59,7 @@
                                                 </td> 
                                                 <td class="align-middle" style="width: 30%">
                                                     <select class="form-select" name="diagnosa[]">
-                                                      <option value="" selected>--Silahkan Pilih--</option>
+                                                        <option value="" selected>--Silahkan Pilih--</option>
                                                         @foreach ($kondisipenyakits as $kondisipenyakit)
                                                             @php
                                                                 $selectedValues = old('diagnosa', []);
