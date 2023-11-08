@@ -21,8 +21,14 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="name">Nama Lengkap</label>
-                                    <input type="text" id="name" class="form-control" name="name"
-                                        placeholder="Masukkan Nama Lengkap" autocomplete="off" required>
+                                    <input type="text" id="name" class="form-control  @error('name') is-invalid @enderror" name="name"
+                                        placeholder="Masukkan Nama Lengkap" autocomplete="off">
+                                         @error('name')
+                                            <div class="invalid-feedback">
+                                                <i class="bx bx-radio-circle"></i>
+                                                {{ $message }}.
+                                            </div>
+                                        @enderror
                                 </div>
                             </div>
                             <div class="col-12">
@@ -55,7 +61,11 @@
                                                     <select class="form-select" name="diagnosa[]">
                                                       <option value="" selected>--Silahkan Pilih--</option>
                                                         @foreach ($kondisipenyakits as $kondisipenyakit)
-                                                            <option value="{{ $gejalapenyakit->id }}+{{ $kondisipenyakit->value }}">
+                                                            @php
+                                                                $selectedValues = old('diagnosa', []);
+                                                                $optionValues = $gejalapenyakit->id . '+' . $kondisipenyakit->value;
+                                                            @endphp
+                                                            <option value="{{ $optionValues }}" {{ in_array($optionValues, $selectedValues) ? 'selected' : '' }}>
                                                                 {{ $kondisipenyakit->name }}
                                                             </option>
                                                         @endforeach

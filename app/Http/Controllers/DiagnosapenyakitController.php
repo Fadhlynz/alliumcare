@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\DiagnosaPenyakitRequest;
 use App\Models\Gejalapenyakit;
 use App\Models\Hasilpenyakit;
 use App\Models\Value;
 use Barryvdh\DomPDF\Facade\PDF as PDF;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 class DiagnosapenyakitController extends Controller
@@ -174,7 +174,7 @@ class DiagnosapenyakitController extends Controller
     ];
   }
 
-  public function diagnosa(Request $request)
+  public function diagnosa(DiagnosaPenyakitRequest $request)
   {
     $data = $request->all();
 

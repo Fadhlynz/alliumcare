@@ -31,7 +31,8 @@
                     </table>
 
                     @foreach (unserialize($riwayat->hasil_diagnosa) as $diagnosa)
-                        <div class="card card-body p-0 mt-5 border" style="box-shadow: none !important;">
+                       @if ($diagnosa['hasil_cf'] != 0.0)
+                            <div class="card card-body p-0 mt-5 border" style="box-shadow: none !important;">
                             <div class="card-header bg-primary text-white p-2">
                                 <h6 class="font-weight-bold text-light">Tabel Perhitungan: {{ $diagnosa['nama_penyakit'] }}
                                     ({{ $diagnosa['code_penyakit'] }})
@@ -65,6 +66,7 @@
                                 </tfoot>
                             </table>
                         </div>
+                       @endif
                     @endforeach
 
                     <div class="mt-5">

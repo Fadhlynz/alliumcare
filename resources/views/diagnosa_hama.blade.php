@@ -55,8 +55,12 @@
                                                     <select class="form-select" name="diagnosa[]">
                                                         <option value="" selected>--Silahkan Pilih--</option>
                                                         @foreach ($kondisihamas as $kondisihama)
+                                                            @php
+                                                                $selectedValues = old('diagnosa', []);
+                                                                $optionValues = $gejalahama->id . '+'. $kondisihama->value;
+                                                            @endphp
                                                             <option
-                                                                value="{{ $gejalahama->id }}+{{ $kondisihama->value }}">
+                                                                value="{{ $optionValues }}" {{ in_array($optionValues, $selectedValues) ? 'selected' : '' }}>
                                                                 {{ $kondisihama->name }}
                                                             </option>
                                                         @endforeach
