@@ -13,7 +13,7 @@
     margin-left: 0.4rem;
 }
 .alert-primary {
-    background-color: #00b894;
+    background-color: #610c9f;
     color: #fff;
 }
 .alert-primary a {
@@ -29,7 +29,7 @@
     font-weight: 700;
 }
 .alert-success {
-    background-color: #4fbe87;
+    background-color: #610c9f;
     color: #fff;
 }
 .alert-success a {
@@ -190,7 +190,7 @@
 }
 .btn.btn-light-primary {
     background-color: #ebf3ff;
-    color: #00b894;
+    color: #610c9f;
 }
 .btn.btn-light-secondary {
     background-color: #e6eaee;
@@ -275,7 +275,7 @@
     margin-bottom: 0;
 }
 .card.card-statistic .card-right span.green {
-    color: #6fff6f;
+    color: #610c9f;
 }
 .card.card-statistic .card-right span.red {
     color: #ff7979;
@@ -340,18 +340,18 @@
 .pricing ul li i,
 .pricing ul li svg {
     width: 1rem;
-    color: #198754;
+    color: #610c9f;
     font-size: 1rem;
     margin-right: 7px;
 }
 .pricing .card-highlighted {
-    background-color: #00b894;
+    background-color: #610c9f;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .pricing .card-highlighted .card-body,
 .pricing .card-highlighted .card-header {
-    background-color: #00b894;
+    background-color: #610c9f;
     color: #fff;
 }
 .pricing .card-highlighted ul li {
@@ -359,10 +359,10 @@
 }
 .pricing .card-highlighted ul li i,
 .pricing .card-highlighted ul li svg {
-    color: #479f76;
+    color: #610c9f;
 }
 .pricing .card-highlighted .card-footer {
-    background-color: #00b894;
+    background-color: #610c9f;
 }
 .pricing .card-highlighted .card-title {
     color: #fff;
@@ -450,9 +450,9 @@
 }
 .form-group.with-title .form-control:focus ~ label,
 .form-group.with-title dataTable-input:focus ~ label {
-    border-left: 1px solid #00b894;
-    border-top: 1px solid #00b894;
-    border-right: 1px solid #00b894;
+    border-left: 1px solid #610c9f;
+    border-top: 1px solid #610c9f;
+    border-right: 1px solid #610c9f;
 }
 .form-group[class*="has-icon-"].has-icon-left .form-control {
     padding-left: 2.5rem;
@@ -477,7 +477,7 @@
 }
 .form-group[class*="has-icon-"] .form-control:focus ~ .form-control-icon i,
 .form-group[class*="has-icon-"] .form-control:focus ~ .form-control-icon svg {
-    color: #55efc4;
+    color: #610c9f;
 }
 .form-group[class*="has-icon-"] .form-control.form-control-xl {
     padding-left: 3rem;
@@ -521,8 +521,8 @@
     box-shadow: none;
 }
 .form-check .form-check-input.form-check-primary {
-    background-color: #00b894;
-    border-color: #00b894;
+    background-color: #610c9f;
+    border-color: #610c9f;
 }
 .form-check .form-check-input.form-check-primary:not(:checked) {
     background-color: transparent;
@@ -550,15 +550,15 @@
     box-shadow: none;
 }
 .form-check .form-check-input.form-check-success {
-    background-color: #198754;
-    border-color: #198754;
+    background-color: #610c9f;
+    border-color: #610c9f;
 }
 .form-check .form-check-input.form-check-success:not(:checked) {
     background-color: transparent;
     border: 1px solid #ced4da;
 }
 .form-check .form-check-input.form-check-success.form-check-glow {
-    box-shadow: 0 0 5px #21b26f;
+    box-shadow: 0 0 5px #610c9f;
 }
 .form-check .form-check-input.form-check-success.form-check-glow:not(:checked) {
     box-shadow: none;
@@ -650,16 +650,16 @@
     font-size: 1rem;
 }
 .form-check.form-check-primary .form-check-input {
-    background-color: #00b894;
-    border-color: #00b894;
+    background-color: #610c9f;
+    border-color: #610c9f;
 }
 .form-check.form-check-secondary .form-check-input {
     background-color: #6c757d;
     border-color: #6c757d;
 }
 .form-check.form-check-success .form-check-input {
-    background-color: #198754;
-    border-color: #198754;
+    background-color: #610c9f;
+    border-color: #610c9f;
 }
 .form-check.form-check-info .form-check-input {
     background-color: #0dcaf0;
@@ -792,7 +792,7 @@
     font-size: 1rem;
     list-style: none;
     font-weight: 600;
-    color: #00b894;
+    color: #610c9f;
 }
 .sidebar-wrapper .menu .sidebar-link {
     display: block;
@@ -803,7 +803,7 @@
     border-radius: 0.5rem;
     transition: all 0.5s;
     text-decoration: none;
-    color: #00b894;
+    color: #610c9f;
 }
 .sidebar-wrapper .menu .sidebar-link i,
 .sidebar-wrapper .menu .sidebar-link svg {
@@ -829,7 +829,7 @@
     display: block;
 }
 .sidebar-wrapper .menu .sidebar-item.active .sidebar-link {
-    background-color: #00b894;
+    background-color: #610c9f;
 }
 .sidebar-wrapper .menu .sidebar-item.active .sidebar-link span {
     color: #fff;
@@ -856,13 +856,13 @@
     position: relative;
 }
 .sidebar-wrapper .menu .submenu .submenu-item.active > a {
-    color: #00b894;
+    color: #610c9f;
     font-weight: 700;
 }
 .sidebar-wrapper .menu .submenu .submenu-item a {
     padding: 0.7rem 2rem;
     display: block;
-    color: #00b894;
+    color: #610c9f;
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -894,7 +894,7 @@
 .nav-tabs .nav-link.active {
     border: none;
     position: relative;
-    color: #00b894;
+    color: #610c9f;
 }
 .nav-tabs .nav-link.active:after {
     content: "";
@@ -902,13 +902,13 @@
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #00b894;
+    background-color: #610c9f;
     left: 0;
     box-shadow: 0 2px 5px rgba(67, 94, 190, 0.5);
 }
 .navbar-fixed {
     position: fixed;
-    background-color: #fff; 
+    background-color: #fff;
 }
 .navbar {
     height: 90px;
@@ -948,8 +948,8 @@
     display: none;
 }
 .pagination.pagination-primary .page-item.active .page-link {
-    background-color: #00b894;
-    border-color: #00b894;
+    background-color: #610c9f;
+    border-color: #610c9f;
     box-shadow: 0 2px 5px rgba(67, 94, 190, 0.3);
 }
 .pagination.pagination-secondary .page-item.active .page-link {
@@ -958,8 +958,8 @@
     box-shadow: 0 2px 5px rgba(108, 117, 125, 0.3);
 }
 .pagination.pagination-success .page-item.active .page-link {
-    background-color: #198754;
-    border-color: #198754;
+    background-color: #610c9f;
+    border-color: #610c9f;
     box-shadow: 0 2px 5px rgba(25, 135, 84, 0.3);
 }
 .pagination.pagination-info .page-item.active .page-link {
@@ -1041,7 +1041,7 @@
     overflow: visible;
 }
 .progress.progress-primary .progress-bar {
-    background-color: #00b894;
+    background-color: #610c9f;
     border-radius: 0.25rem;
 }
 .progress.progress-secondary {
@@ -1055,7 +1055,7 @@
     overflow: visible;
 }
 .progress.progress-success .progress-bar {
-    background-color: #198754;
+    background-color: #610c9f;
     border-radius: 0.25rem;
 }
 .progress.progress-info {
