@@ -195,7 +195,7 @@ section {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #610C9F;
+    color: #610c9f;
     font-family: "Nunito", sans-serif;
     margin-top: 3px;
 }
@@ -231,7 +231,7 @@ section {
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #610C9F;
+    color: #610c9f;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -247,12 +247,12 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #610C9F;
+    color: #610c9f;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-    background: #610C9F;
+    background: #610c9f;
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
@@ -262,7 +262,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #fff;
-    background: #940B92;
+    background: #940b92;
 }
 
 .navbar .dropdown ul {
@@ -299,7 +299,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-    color: #610C9F;
+    color: #610c9f;
 }
 
 .navbar .dropdown:hover > ul {
@@ -392,13 +392,13 @@ section {
 .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #610C9F;
+    color: #610c9f;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-    color: #610C9F;
+    color: #610c9f;
 }
 
 .navbar-mobile .getstarted,
@@ -433,7 +433,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-    color: #610C9F;
+    color: #610c9f;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -454,7 +454,7 @@ section {
     margin: 0;
     font-size: 40px;
     font-weight: 700;
-    color: #610C9F;
+    color: #610c9f;
 }
 
 .hero h2 {
@@ -470,7 +470,7 @@ section {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #610C9F;
+    background: #610c9f;
     box-shadow: 0px 5px 30px rgba(65, 241, 130, 0.4);
 }
 
@@ -719,7 +719,7 @@ section {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 600;
-    color: #610C9F;
+    color: #610c9f;
     padding: 12px 0;
     margin-right: 25px;
     margin-bottom: -2px;
@@ -727,8 +727,8 @@ section {
 }
 
 .features .feture-tabs .nav-link.active {
-    color: #610C9F;
-    border-bottom: 3px solid #610C9F;
+    color: #610c9f;
+    border-bottom: 3px solid #610c9f;
 }
 
 .features .feture-tabs .tab-content h4 {
@@ -864,20 +864,20 @@ section {
 }
 
 .services .service-box.green {
-    border-bottom: 3px solid #08da4e;
+    border-bottom: 3px solid #b50edf;
 }
 
 .services .service-box.green .icon {
-    color: #08da4e;
+    color: #b50edf;
     background: #cffddf;
 }
 
 .services .service-box.green .read-more {
-    color: #08da4e;
+    color: #b50edf;
 }
 
 .services .service-box.green:hover {
-    background: #08da4e;
+    background: #b50edf;
 }
 
 .services .service-box.red {
@@ -2324,7 +2324,7 @@ section {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #610C9F;
+    color: #610c9f;
     font-family: "Nunito", sans-serif;
     margin-top: 3px;
 }
