@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">Sistem Pakar Diagnosa Hama dan Penyakit pada Tanaman Bawang Merah</h1>
+                    <h1 data-aos="fade-up">Sistem Pakar Identifikasi Hama dan Penyakit pada Tanaman Bawang Merah</h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">Sistem yang digunakan untuk mempermudah dalam mendiagnosa
                         hama maupun penyakit pada tanaman Bawang Merah</h2>
                     <div data-aos="fade-up" data-aos-delay="600">
